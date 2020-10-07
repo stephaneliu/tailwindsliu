@@ -1,2 +1,3 @@
-class StaticController < ApplicationController
-end
+# frozen_string_literal: true
+
+class StaticController < ApplicationController; end
