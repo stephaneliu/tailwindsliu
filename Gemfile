@@ -15,7 +15,7 @@ gem "font-awesome-sass", "~> 5.13" # https://github.com/FortAwesome/font-awesome
 gem "haml-rails", "~> 2.0" # https://github.com/indirect/haml-rails
 gem "pg", ">= 0.18", "< 2.0" # https://github.com/ged/ruby-pg
 gem "puma", "~> 4.1" # https://puma.io
-gem "rack-timeout" # https://github.com/sharpstone/rack-timeout
+gem "rack-timeout", require: "rack/timeout/base" # https://github.com/sharpstone/rack-timeout
 gem "sass-rails", ">= 6" # https://github.com/rails/sass-rails
 gem "turbolinks", "~> 5" # https://github.com/turbolinks/turbolinks
 gem "webpacker", "~> 4.0" # https://github.com/rails/webpacker
