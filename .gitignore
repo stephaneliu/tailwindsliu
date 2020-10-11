@@ -27,3 +27,9 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+.DS_Store
+gems.tags
+tags
+/coverage/*
+/.env
+/node_modules
